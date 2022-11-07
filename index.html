@@ -6,16 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>Thais D'Ávilla</title>
 </head>
 
 <body>
   <nav>
-    <head>Thais D'Ávilla</head>
+    <header>Thais D'Ávilla</header>
     <section class="nav-items">
       <a href="#home">Início</a>
-      <a href="#">Sobre</a>
-      <a href="#">Formulários</a>
+      <a href="#about">Sobre</a>
+      <a href="#form">Formulários</a>
     </section>
   </nav>
   <section id="home">
@@ -23,17 +23,23 @@
       <div class="column-left">
         <h1>Só projetos incríveis</h1>
         <p>Entre em contato pelo formulário para receber mais informações top!</p>
-        <a id="CTA-button" href="#">Comece agora!</a>
+        <a id="CTA-button" href="#form">Comece agora!</a>
       </div>
-    </div>
+
+      <div class="column-right">
+        <figure>
+          <img src="./images/img.gif" alt="ilustration" id="home-image">
+        </figure>
+      </div>
+  </section>
+
+  <section id="#about">
 
   </section>
 
-
-
-  <form action="https://www.google.com.br/">
+  <form id="#form" action="https://www.google.com.br/">
     <section>
-      <h1>Formulário de interesses</h1>
+      <h2>Formulário de interesses</h2>
       <p>Digite seu nome:
         <input type="text" name="userName" placeholder="Digite seu nome completo">
       </p>
@@ -63,7 +69,7 @@
           <option value="5">Ação</option>
         </select>
       </p>
-      <button value="submit">Enviar</button>
+      <button id="#form-button" value="submit">Enviar</button>
 
     </section>
   </form>
