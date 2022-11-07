@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav>
+    <head>Thais D'Ávilla</head>
+    <section class="nav-items">
+      <a href="#home">Início</a>
+      <a href="#">Sobre</a>
+      <a href="#">Formulários</a>
+    </section>
+  </nav>
+  <section id="home">
+    <div class="container">
+      <div class="column-left">
+        <h1>Só projetos incríveis</h1>
+        <p>Entre em contato pelo formulário para receber mais informações top!</p>
+        <a id="CTA-button" href="#">Comece agora!</a>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <form action="https://www.google.com.br/">
+    <section>
+      <h1>Formulário de interesses</h1>
+      <p>Digite seu nome:
+        <input type="text" name="userName" placeholder="Digite seu nome completo">
+      </p>
+      <p>Digite sua profissão
+        <input type="text" name="userJob" placeholder="Digite sua profissão">
+      </p>
+      <p>Nos conte um pouquinho sobre você
+        <textarea name="userComment" id="" cols="30" rows="4"></textarea>
+      </p>
+      <p>Você faz exercícios regularmente?
+        <input type="radio" name="exercise" value="1">Sim
+        <input type="radio" name="exercise" value="2">Não
+      </p>
+      <p>Por onde você lê seus tópicos favoritos?
+        <input type="checkbox" name="books">Livros
+        <input type="checkbox" name="web">Sites
+        <input type="checkbox" name="apps">Aplicativos
+        <input type="checkbox" name="magazines">Revistas
+      </p>
+      <p>Qual tipo de filme você mais gosta?
+        <select name="moviesPref" id="">
+          <option value=""></option>
+          <option value="1">Comédia</option>
+          <option value="2">Romance</option>
+          <option value="3">Drama</option>
+          <option value="4">Terror</option>
+          <option value="5">Ação</option>
+        </select>
+      </p>
+      <button value="submit">Enviar</button>
+
+    </section>
+  </form>
+
+</body>
+
+</html>
