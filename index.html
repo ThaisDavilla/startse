@@ -47,7 +47,7 @@
         <p>Apaixonada por tecnologia e por tudo que ela nos proporciona!</p>
         <p>Entrei no mundo da programação e hoje sou desenvolvedora Front End,
           e pretendo me tornar desenvolvedora FullStack.</p>
-        <p>Te convido a passear pela página e conhecer os projetos que já desenvolvi!</p>
+        <p>Aguardo seu conatto pra gente bater um papo sobre esse mundo fantástico dos códigos!</p>
       </div>
       <figure>
         <img src="./images/student.gif" />
@@ -61,58 +61,72 @@
     </svg>
 
     <form id="form" action="https://www.google.com.br/">
+      <h2>Formulário de interesses</h2>
       <section>
-        <h2>Formulário de interesses</h2>
-        <p>Seu nome:</p>
-        <input type="text" name="userName" placeholder="Digite seu nome completo">
+        <div class="data">
+          <p>Nome:</p>
+          <input type="text" name="userName" placeholder="Seu nome completo">
 
-        <p>Sua profissão:</p>
-        <input type="text" name="userJob" placeholder="Digite sua profissão">
+          <p>Profissão:</p>
+          <input type="text" name="userJob" placeholder="Sua profissão">
 
-        <p>Fale um pouco sobre você:</p>
-        <textarea name="userComment" id="" cols="30" rows="4"></textarea>
+          <p>Fale um pouco sobre você:</p>
+          <textarea name="userComment" id="" cols="30" rows="4"></textarea>
+        </div>
 
-        <p>Você gosta de Tecnologia?</p>
-        <label>Sim</label>
-        <input type="radio" name="exercise" value="1">
-        <label>Não</label>
-        <input type="radio" name="exercise" value="2">
+        <div class="tech">
+          <p>Você gosta de Tecnologia?</p>
+          <label for="sim">Sim</label>
+          <input id="sim" type="radio" name="exercise" value="1">
+          <label for="nao">Não</label>
+          <input id="nao" type="radio" name="exercise" value="2">
+          <p>Por onde você lê seus tópicos favoritos?</p>
+          <label for="books">Livros</label>
+          <input id="books" type="checkbox" name="books">
+          <label>Sites</label>
+          <input type="checkbox" name="web">
+          <label>Aplicativos</label>
+          <input type="checkbox" name="apps">
+          <label>Revistas</label>
+          <input type="checkbox" name="magazines">
+          <p>Qual área da tecnologia faz seu coração bater mais rápido?</p>
+          <select name="tech" id="">
+            <option value=""></option>
+            <option value="1">Front End</option>
+            <option value="2">Back End</option>
+            <option value="3">Dados</option>
+            <option value="4">Segurança</option>
+            <option value="5">Inteligência Artificial</option>
+          </select>
 
-        <p>Por onde você lê seus tópicos favoritos?</p>
-        <label for="books">Livros</label>
-        <input id="books" type="checkbox" name="books">
-        <label>Sites</label>
-        <input type="checkbox" name="web">
-        <label>Aplicativos</label>
-        <input type="checkbox" name="apps">
-        <label>Revistas</label>
-        <input type="checkbox" name="magazines">
-
-        <p>Qual área da tecnologia faz seu coração bater mais rápido?</p>
-        <select name="tech" id="">
-          <option value=""></option>
-          <option value="1">Front End</option>
-          <option value="2">Back End</option>
-          <option value="3">Dados</option>
-          <option value="4">Segurança</option>
-          <option value="5">Inteligência Artificial</option>
-        </select>
-
-        <button id="#form-button" value="submit">Enviar</button>
-
+          <button id="#form-button" value="submit">Enviar</button>
+        </div>
       </section>
     </form>
   </main>
+
   <footer>
-    <nav>
-      <p>Desenvolvido por Thais D'Ávilla</p>
-      <div class="redes">
-        <a href="https://www.linkedin.com/in/thaisdavilla/" target="_blank">Linkedin</a>
-        <a href="https://github.com/ThaisDavilla" target="_blank">GitHub</a>
-        <a href="https://www.instagram.com/athaisdavilla/" target="_blank">Insta</a>
+    <section>
+      <nav class="redes">
+        <a href="https://www.linkedin.com/in/thaisdavilla/" target="_blank">
+          <img src="./images/linkedin.png" alt="">
+        </a>
+        <a href="https://github.com/ThaisDavilla" target="_blank">
+          <img src="./images/gitHub.png" alt="">
+        </a>
+        <a href="https://www.instagram.com/athaisdavilla/" target="_blank">
+          <img src="./images/instagram.png" alt="">
+        </a>
+      </nav>
+      <a href="https://portifolio-thaisdavilla.vercel.app/" target="_blank">Clique e veja meu portifólio!</a>
+
+      <div>
+        <p>Desenvolvido por Thais D'Ávilla</p>
+        <a href="https://www.startse.com/" target="_blank">StartSe</a>
       </div>
-      <p>StartSe</p>
-    </nav>
+      <p>copyright ©</p>
+      
+    </section>
   </footer>
 
 </body>
