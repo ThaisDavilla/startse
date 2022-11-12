@@ -1,0 +1,50 @@
+@media(max-width:800px){
+
+header {
+  width: 100%;
+  justify-content: space-around;
+  font-size: 1.2em;
+  
+  }
+  header img{
+    width: 9vw;
+    height: 7vh;
+    margin-left: 0.5vh;
+  }
+h3{
+  display: none;
+}
+header nav {
+  width: 70%;
+}
+
+  #home {
+    height: 95vh;
+  }
+
+  h1 {
+    margin-top: 2vh;
+  }
+  .container {
+    width: 96%;
+    height: 85vh;
+    display: flex;
+  }
+
+  #home img {
+    display: none;
+    /*width: 48vw;
+    height: 35vh;
+    margin: 33vh -12vw;*/
+   
+  }
+
+  #CTA-button {
+    font-size: 1.2em;
+    padding: 1.5 2.5rem;
+  }
+
+
+
+ 
+}
