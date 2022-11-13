@@ -15,9 +15,9 @@ header {
   text-transform: uppercase;
   }
   header img{
-    width: 5vw;
+    width: 3vw;
     height: 7vh;
-  }
+}
 
 h3{
   font-size: 1.5rem;
@@ -76,12 +76,13 @@ h1 {
   margin-top: 2vh;
 }
 
-#CTA-button {
+#CTA-button,
+#menu {
   padding: 1rem 3rem;
   font-size: 1rem;
   border: none;
   color: #d9dcd6;
- background-color: #3d405b;
+  background-color: #3d405b;
   cursor: pointer;
   border-radius: 50px;
   text-decoration: none;
@@ -94,35 +95,21 @@ h1 {
   color: #222222;
   transition: 0.3s;
 }
-#menu{
-  padding: 1rem 3rem;
-  font-size: 1rem;
-  border: none;
-  color: #f4f3ee;
- background-color: #3d405b;
-  cursor: pointer;
-  border-radius: 50px;
-  text-decoration: none;
-  margin: 1vh 10vw;
-}
 #menu:hover{
   background-color: #cbc0d3;
   color: #222222;
   transition: 0.3s;
 }
-
 img {
   width: 40vw;
   height: 80vh;
   margin: 8vh -10vw;
 }
-
 svg {
   width: 98vw;
  }
 
-
-h2 {
+ h2 {
   text-transform: uppercase;
 }
 
@@ -161,7 +148,6 @@ h2 {
   width: 25vw;
   height: 48vh;
 }
-
 
 form {
   width: 100vw;
@@ -227,8 +213,6 @@ button:hover {
   transition: 0.3s;
 }
 
-
-
 footer{
   width: 100vw;
   background-color: #9A8C98;
@@ -238,12 +222,14 @@ footer{
   text-transform: uppercase;
   }
   .redes{
-    margin: 0 30vw;
+    width: 20vw;
+    margin: 1vh 40vw;
+    
   }
 nav img{
   width: 2vw;
   height: 4vh;
-  margin: 1vh 5vw;
+  margin: 2vh 2vw;
   
 }
 
