@@ -24,7 +24,6 @@ header nav {
 
   #home {
     height: 98vh;
-   
   }
 
   h1 {
@@ -49,7 +48,6 @@ header nav {
       font-size: 1.2em;
      }
 
-  }
   .column-right{
     display: none;
   }
@@ -126,6 +124,12 @@ footer div{
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
- }
-
+  }
 }
+
+
+
+
+  
+
+
